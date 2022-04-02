@@ -354,7 +354,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
 	    let str = `Room ID: ${room.id}
 
 ${arr.slice(0, 3).join('')}
-${arr.slice(3, 6).join('')}
+${arr.slice(3, 6).join('')} bisa
 ${arr.slice(6).join('')}
 
 ${isWin ? `@${winner.split('@')[0]} Menang!` : isTie ? `Game berakhir` : `Giliran ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
@@ -880,10 +880,10 @@ var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.j
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "1000",
-                        "retailerId": `Sanzy`,
-                        "url": "wa.me/6281276698054"
+                        "retailerId": `Partha`,
+                        "url": "wa.me/6285692261162"
                     },
-                    "businessOwnerJid": "6281276698054@s.whatsapp.net",
+                    "businessOwnerJid": "6285692261162@s.whatsapp.net",
                 }
                 }), { userJid: m.chat, quoted: m })
                 hisoka.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -1474,7 +1474,7 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'Ig Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -1513,7 +1513,7 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'Ig Ownerku Kak',
                                     url: global.myweb
                                 }
                             }, {
@@ -1749,7 +1749,7 @@ break
             hisoka.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${hisoka.user.name}.mp3`}, { quoted : m })
             }
             break
-            case 'tovn': case 'toptt': {
+            case 'marikitacoba': case 'toptt': {
             if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
             if (!quoted) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
             m.reply(mess.wait)
@@ -3426,7 +3426,7 @@ case 'groupmenu': case 'menugroup': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3489,7 +3489,7 @@ case 'downloadmenu': case 'menudownload': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3546,7 +3546,7 @@ case 'searchmenu': case 'menusearch': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3638,7 +3638,7 @@ case 'randomimagemenu': case 'menurandomimage': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3743,7 +3743,7 @@ case 'wibumenu': case 'menuwibu': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
