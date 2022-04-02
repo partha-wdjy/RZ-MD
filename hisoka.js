@@ -589,7 +589,7 @@ case 'tqtt': case 'tqto': case 'thanksto': {
 • Wita : ${wita}`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -622,7 +622,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname} Selamat ${salam}\n┌──⭓ 「 INFO USER 」⭓\n│\n│ Name : ${pushname}\n│ Number : ${m.sender.split('@')[0]}\n│ Status : ${isCreator ? 'Owner' : 'User'}\n│\n└───────⭓\n┌──⭓ 「 INFO BOT 」⭓\n│\n│ Prefix : ( ${prefix} )\n│Name : ${global.namabot}\n│ Owner : ${global.namaowner}\n│ Mode : ${hisoka.public ? 'Public' : 'Self'}\n│ Runtime : ${runtime(process.uptime())}\n│ Lib : Baileys-md\n│\n└───────⭓\n\n┌──⭓ 「 INFO TIME 」⭓\n│\n│ WIB : ${wib}\n│ WIT : ${wit}\n│ WITA : ${wita}\n│\n└───────⭓`,
                     description: "\n",
                     buttonText: "CLICK HERE",
-                    footerText: "Jangan Spam Bot.!!!!",
+                    footerText: "Jangan Spam Bot 🐕.!!!!",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Fitur Grup",
@@ -823,7 +823,9 @@ https://youtube.com/c/SanzyYT`
             }
             break
              case 'tes': {
-                m.reply('On Kak')
+                m.reply('On cok
+			 buta kau')
+			
             }
             break
             case 'chat': {
