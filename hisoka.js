@@ -874,16 +874,16 @@ var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.j
                         "productId": "7091718154232528",
                         "title": `_*MENU *_`,
                         "description": '┏━━━━━━━━━━━━━━⬣\n┃        〔 SEWA BOT  〕\n┃ \n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃   ⬣ SEWA + PREM ⬣\n┃⬡ 1 MINGGU : 8K\n┃⬡ 1 BULAN : 18K\n┃⬡ PERMANEN : 25K\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃       〔 KELEBIHAN BOT 〕\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃⬡ ON 24 JAM\n┃⬡ RUN DI RDP\n┃⬡ ANTI DELAY \n┃⬡ ANTILINK\n┃⬡ WELCOME IMAGE\n┃⬡ LEFT\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃           ⬣〔  SISTEM 〕⬣\n┃⬡ TF - SEND BUKTI - BOT JOIN\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃    *PAYMENT* :\n┃ GOPAY\n┃ DANA\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n_Bukan Bot_ *_Wibusoft_*👍🏻',
-                        "footerText": `© Partha-wdjy`,
+                        "footerText": `© Sazy YT`,
                         "currencyCode": "IDR",
                         "priceAmount1000": "100000000000000000",
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "1000",
-                        "retailerId": `partha`,
-                        "url": "wa.me/6285692261162"
+                        "retailerId": `Sanzy`,
+                        "url": "wa.me/6281276698054"
                     },
-                    "businessOwnerJid": "6285692261162@s.whatsapp.net",
+                    "businessOwnerJid": "6281276698054@s.whatsapp.net",
                 }
                 }), { userJid: m.chat, quoted: m })
                 hisoka.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -1749,7 +1749,7 @@ break
             hisoka.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${hisoka.user.name}.mp3`}, { quoted : m })
             }
             break
-            case 'bismillah': case 'toptt': {
+            case 'tovn': case 'toptt': {
             if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
             if (!quoted) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
             m.reply(mess.wait)
@@ -6023,7 +6023,7 @@ break
 		    hisoka.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 		}
         }
-     if (budy.includes('6285692261162')) {  
+     if (budy.includes('6281276698054')) {  
 hisoka.sendMessage(m.chat, {text: 'Ada Apa Ya Tags Owner Saya'}, {quoted: ftroli})
 	  }	     
 
