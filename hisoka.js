@@ -589,7 +589,7 @@ case 'tqtt': case 'tqto': case 'thanksto': {
 • Wita : ${wita}`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -609,7 +609,7 @@ case 'tqtt': case 'tqto': case 'thanksto': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu',
+                                    displayText: 'Menu',
                                     id: 'command'
                                 }
                             }]
