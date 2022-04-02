@@ -57,7 +57,7 @@ global.APIKeys = {
 
 global.namabot = 'RZ Bot'
 
-global.namaowner = 'RZ-L'
+global.namaowner = 'Partha wdjy'
 
 global.myweb = 'https://bit.ly/partha-wdjy'
 
@@ -68,10 +68,24 @@ global.owner = [ '6285692261162' ]
 global.premium = ['6285692261162']
 
 
-global.packname = 'Cuma numpang nama'
+global.packname = 'RZ bot'
 
 
-global.author = 'Jadi Gk bangga :v'
+global.author = 'By Partha-wdjy'
+
+
+
+
+
+
+
+
+
+
+
+
+
+/n/n/n
 
 
 global.sessionName = 'hisoka'
