@@ -87,6 +87,41 @@ const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')
 if(m.message && global.autoread == true) {
 alpha.sendReadReceipt(m.chat, sender, [m.key.id])
 }
+
+	// Auto Read2
+if(!isMedia && global.autoread == true) {
+alpha.sendReadReceipt(m.chat, sender, [m.key.id])
+} 
+	    
+	 
+	 case 'autorespond': case 'autorespon': {
+        if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
+        if (args[0] === "on") {
+      	if (global.db.data.settings[botNumber].autorespond) return reply(`Sudah Aktif Sebelumnya`)
+        global.db.data.settings[botNumber].autorespond = true
+        reply(`${command} Berhasil Di Aktifkan !`)
+        } else if (args[0] === "off") {
+        	if (!global.db.data.settings[botNumber].autorespond) return reply(`Sudah Nonaktif Sebelumnya`)
+        global.db.data.settings[botNumber].autorespond = false
+        reply(`${command} Berhasil Di Nonaktifkan !`)
+        } else {
+        	alpha.sendButMessage(from, 'Mode Auto Respond', `© ${ownername}`, [{buttonId: 'autorespond on', buttonText: {displayText: 'ON'}, type: 1},{buttonId: 'autorespond off', buttonText: {displayText: 'OFF'}, type: 1}], {quoted: fgif})
+			}}
+			break
+        	case 'nsfw':
+        if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
+        if (args[0] === "on") {
+        	if (global.db.data.chats[m.chat].nsfw) return reply(`Sudah Aktif Sebelumnya`)
+        global.db.data.chats[m.chat].nsfw = true
+        reply(`NsFw Berhasil Di Aktifkan !`)
+        } else if (args[0] === "off") {
+        	if (!global.db.data.chats[m.chat].nsfw) return reply(`Sudah Nonaktif Sebelumnya`)
+        global.db.data.chats[m.chat].nsfw = false
+        reply(`NsFw Berhasil Di Nonaktifkan !`)
+        } else {
+        	alpha.sendButMessage(from, 'Mode Nfsw', `© ${ownername}`, [{buttonId: 'nsfw on', buttonText: {displayText: 'ON'}, type: 1},{buttonId: 'nsfw off', buttonText: {displayText: 'OFF'}, type: 1}], {quoted: fgif})
+			}
+	    
 	    
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
