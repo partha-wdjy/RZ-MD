@@ -93,36 +93,6 @@ if(!isMedia && global.autoread == true) {
 alpha.sendReadReceipt(m.chat, sender, [m.key.id])
 } 
 	    
-	 
-	 case 'autorespond': case 'autorespon': {
-        if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
-        if (args[0] === "on") {
-      	if (global.db.data.settings[botNumber].autorespond) return reply(`Sudah Aktif Sebelumnya`)
-        global.db.data.settings[botNumber].autorespond = true
-        reply(`${command} Berhasil Di Aktifkan !`)
-        } else if (args[0] === "off") {
-        	if (!global.db.data.settings[botNumber].autorespond) return reply(`Sudah Nonaktif Sebelumnya`)
-        global.db.data.settings[botNumber].autorespond = false
-        reply(`${command} Berhasil Di Nonaktifkan !`)
-        } else {
-        	alpha.sendButMessage(from, 'Mode Auto Respond', `© ${ownername}`, [{buttonId: 'autorespond on', buttonText: {displayText: 'ON'}, type: 1},{buttonId: 'autorespond off', buttonText: {displayText: 'OFF'}, type: 1}], {quoted: fgif})
-			}}
-			break
-        	case 'nsfw':
-        if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
-        if (args[0] === "on") {
-        	if (global.db.data.chats[m.chat].nsfw) return reply(`Sudah Aktif Sebelumnya`)
-        global.db.data.chats[m.chat].nsfw = true
-        reply(`NsFw Berhasil Di Aktifkan !`)
-        } else if (args[0] === "off") {
-        	if (!global.db.data.chats[m.chat].nsfw) return reply(`Sudah Nonaktif Sebelumnya`)
-        global.db.data.chats[m.chat].nsfw = false
-        reply(`NsFw Berhasil Di Nonaktifkan !`)
-        } else {
-        	alpha.sendButMessage(from, 'Mode Nfsw', `© ${ownername}`, [{buttonId: 'nsfw on', buttonText: {displayText: 'ON'}, type: 1},{buttonId: 'nsfw off', buttonText: {displayText: 'OFF'}, type: 1}], {quoted: fgif})
-			}
-	    
-	    
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
 const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`, orderTitle: 'Please Subscribe Youtube Sanzy YT', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
