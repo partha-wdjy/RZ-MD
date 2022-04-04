@@ -814,6 +814,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 
 https://github.com/DikaArdnt/Hisoka-Morou
 
+🍁 User Ghitub : Partha-wdjy
+
+https://github.com/partha-wdjy/RZ-MD
 
 🌱 Recode By : Sanzy YT
 
@@ -2239,7 +2242,7 @@ case 'balloon-text':
 case 'balloons-cards':
 case 'balloons-love':
 case 'bats-halloween': {
-if (!text) throw `Example : ${prefix + command} SanzyYT`
+if (!text) throw `Example : ${prefix + command} Partha Ganteng`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.violetics.pw/api/ephoto360/${command}?apikey=zyykey&text=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
@@ -2259,14 +2262,14 @@ hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli
 }
 break
 case 'juventusshirt': case 'cutegravity': case 'realvintage': case 'codwarzone': {
-if (!text) throw `Example : ${prefix + command} SanzyYT`
+if (!text) throw `Example : ${prefix + command} Partha ganteng`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.lolhuman.xyz/api/ephoto2/codwarzone?apikey=sanzychan01&text1=${text}&text2=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
 }
 break
 	    case 'nomerhoki': case 'nomorhoki': {
-                if (!Number(text)) throw `Example : ${prefix + command} 6288292024190`
+                if (!Number(text)) throw `Example : ${prefix + command} 6285692261162`
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
@@ -3429,7 +3432,7 @@ case 'groupmenu': case 'menugroup': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3492,7 +3495,7 @@ case 'downloadmenu': case 'menudownload': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3549,7 +3552,7 @@ case 'searchmenu': case 'menusearch': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3641,7 +3644,7 @@ case 'randomimagemenu': case 'menurandomimage': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner,
                                     url: global.myweb
                                 }
                             }, {
@@ -3746,7 +3749,7 @@ case 'wibumenu': case 'menuwibu': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3808,7 +3811,7 @@ case 'asupanmenu': case 'menuasupan': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3886,7 +3889,7 @@ case 'randomtextmenu': case 'menurandomtext': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -3951,7 +3954,7 @@ case 'randommenu': case 'menurandom': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4001,7 +4004,7 @@ case 'commentmenu': case 'menucomment': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4057,7 +4060,7 @@ case 'sertifikatmenu': case 'menusertifikat': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4183,7 +4186,7 @@ case 'textpromenu': case 'menutextpro': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4257,7 +4260,7 @@ case 'photooxymenu': case 'menuphotooxy': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4353,7 +4356,7 @@ case 'photomakermenu': case 'menuphotomaker': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4434,7 +4437,7 @@ case 'stickermenu': case 'stikermenu': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4532,7 +4535,7 @@ case 'ephotomenu': case 'menuephoto': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4594,7 +4597,7 @@ case 'funmenu': case 'menufun': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4671,7 +4674,7 @@ case 'primbonmenu': case 'menuprimbon': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4734,7 +4737,7 @@ case 'convertmenu': case 'menuconvert': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4790,7 +4793,7 @@ case 'mainmenu': case 'menumain': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4846,7 +4849,7 @@ case 'databasemenu': case 'menudatabase': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4899,7 +4902,7 @@ case 'anonymousmenu': case 'menuanonymous': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -4963,7 +4966,7 @@ case 'islamicmenu': case 'menuislamic': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner,
                                     url: global.myweb
                                 }
                             }, {
@@ -5022,7 +5025,7 @@ case 'voicemenu': case 'menuvoice': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -5074,7 +5077,7 @@ case 'stalkmenu': case 'menustalk': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -5131,7 +5134,7 @@ case 'ownermenu': case 'menuowner': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -5181,7 +5184,7 @@ Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Ow
                             hydratedFooterText: `© ${global.namabot}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
@@ -5935,7 +5938,7 @@ break
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'IG Owner',
                                     url: global.myweb
                                 }
                             }, {
