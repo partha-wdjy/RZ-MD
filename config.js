@@ -55,9 +55,9 @@ global.APIKeys = {
 
 // Other
 
-global.namabot = 'RZ Bot'
+global.botname = 'RZ Bot'
 
-global.namaowner = 'Partha wdjy'
+global.ownername = 'Partha wdjy'
 
 global.myweb = 'https://bit.ly/parthawdjy'
 
