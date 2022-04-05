@@ -83,10 +83,6 @@ const wita = moment.tz('Asia/Makassar').format('HH : mm : ss')
 const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')
 
 
-
-
-
-	    
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
 const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`, orderTitle: 'Please Subscribe Youtube Sanzy YT', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
@@ -593,7 +589,7 @@ case 'tqtt': case 'tqto': case 'thanksto': {
 • Wita : ${wita}`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'IG Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -613,7 +609,7 @@ case 'tqtt': case 'tqto': case 'thanksto': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Menu',
+                                    displayText: 'List Menu',
                                     id: 'command'
                                 }
                             }]
@@ -813,16 +809,13 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 
 https://github.com/DikaArdnt/Hisoka-Morou
 
-🍁 User Ghitub : Partha-wdjy
-
-https://github.com/partha-wdjy/RZ-MD
 
 🌱 Recode By : Sanzy YT
 
 https://youtube.com/c/SanzyYT`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'Tiktok Creator',
                                     url: 'https://youtube.com/c/SanzyYT'
                                 }
                             }]
@@ -879,16 +872,16 @@ var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.j
                         "productId": "7091718154232528",
                         "title": `_*MENU *_`,
                         "description": '┏━━━━━━━━━━━━━━⬣\n┃        〔 SEWA BOT  〕\n┃ \n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃   ⬣ SEWA + PREM ⬣\n┃⬡ 1 MINGGU : 8K\n┃⬡ 1 BULAN : 18K\n┃⬡ PERMANEN : 25K\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃       〔 KELEBIHAN BOT 〕\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃⬡ ON 24 JAM\n┃⬡ RUN DI RDP\n┃⬡ ANTI DELAY \n┃⬡ ANTILINK\n┃⬡ WELCOME IMAGE\n┃⬡ LEFT\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃           ⬣〔  SISTEM 〕⬣\n┃⬡ TF - SEND BUKTI - BOT JOIN\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃    *PAYMENT* :\n┃ GOPAY\n┃ DANA\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n_Bukan Bot_ *_Wibusoft_*👍🏻',
-                        "footerText": `© RZ bot-Md`,
+                        "footerText": `© Sazy YT`,
                         "currencyCode": "IDR",
                         "priceAmount1000": "100000000000000000",
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "1000",
-                        "retailerId": `Partha`,
-                        "url": "wa.me/6285692261162"
+                        "retailerId": `Sanzy`,
+                        "url": "wa.me/6281276698054"
                     },
-                    "businessOwnerJid": "6285692261162@s.whatsapp.net",
+                    "businessOwnerJid": "6281276698054@s.whatsapp.net",
                 }
                 }), { userJid: m.chat, quoted: m })
                 hisoka.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -1479,7 +1472,7 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -1518,7 +1511,7 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -1754,7 +1747,7 @@ break
             hisoka.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${hisoka.user.name}.mp3`}, { quoted : m })
             }
             break
-            case 'marikitacoba': case 'toptt': {
+            case 'tovn': case 'toptt': {
             if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
             if (!quoted) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
             m.reply(mess.wait)
@@ -2241,7 +2234,7 @@ case 'balloon-text':
 case 'balloons-cards':
 case 'balloons-love':
 case 'bats-halloween': {
-if (!text) throw `Example : ${prefix + command} Partha Ganteng`
+if (!text) throw `Example : ${prefix + command} SanzyYT`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.violetics.pw/api/ephoto360/${command}?apikey=zyykey&text=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
@@ -2261,14 +2254,14 @@ hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli
 }
 break
 case 'juventusshirt': case 'cutegravity': case 'realvintage': case 'codwarzone': {
-if (!text) throw `Example : ${prefix + command} Partha ganteng`
+if (!text) throw `Example : ${prefix + command} SanzyYT`
 m.reply(mess.wait)
 let anu = await getBuffer(`https://api.lolhuman.xyz/api/ephoto2/codwarzone?apikey=sanzychan01&text1=${text}&text2=${text}`)
 hisoka.sendMessage(m.chat, { image: anu, caption: `Nih  Kak` }, { quoted: ftroli})
 }
 break
 	    case 'nomerhoki': case 'nomorhoki': {
-                if (!Number(text)) throw `Example : ${prefix + command} 6285692261162`
+                if (!Number(text)) throw `Example : ${prefix + command} 6288292024190`
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
@@ -3376,8 +3369,8 @@ case 'sewa': case 'sewabot': {
 ┃⬡ TF - SEND BUKTI - BOT JOIN
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃⬣━ *PAYMENT* :
-┃ GOPAY
-┃ DANA
+┃ PULSA
+┃
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 _Bukan Bot_ *_Wibusoft_*👍🏻`
@@ -3431,7 +3424,7 @@ case 'groupmenu': case 'menugroup': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -3494,7 +3487,7 @@ case 'downloadmenu': case 'menudownload': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -3551,7 +3544,7 @@ case 'searchmenu': case 'menusearch': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -3643,7 +3636,7 @@ case 'randomimagemenu': case 'menurandomimage': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner,
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -3748,7 +3741,7 @@ case 'wibumenu': case 'menuwibu': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -3810,7 +3803,7 @@ case 'asupanmenu': case 'menuasupan': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -3888,7 +3881,7 @@ case 'randomtextmenu': case 'menurandomtext': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -3953,7 +3946,7 @@ case 'randommenu': case 'menurandom': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4003,7 +3996,7 @@ case 'commentmenu': case 'menucomment': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4059,7 +4052,7 @@ case 'sertifikatmenu': case 'menusertifikat': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4185,7 +4178,7 @@ case 'textpromenu': case 'menutextpro': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4259,7 +4252,7 @@ case 'photooxymenu': case 'menuphotooxy': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4355,7 +4348,7 @@ case 'photomakermenu': case 'menuphotomaker': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4436,7 +4429,7 @@ case 'stickermenu': case 'stikermenu': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4534,7 +4527,7 @@ case 'ephotomenu': case 'menuephoto': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4596,7 +4589,7 @@ case 'funmenu': case 'menufun': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4673,7 +4666,7 @@ case 'primbonmenu': case 'menuprimbon': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4736,7 +4729,7 @@ case 'convertmenu': case 'menuconvert': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4792,7 +4785,7 @@ case 'mainmenu': case 'menumain': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4848,7 +4841,7 @@ case 'databasemenu': case 'menudatabase': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4901,7 +4894,7 @@ case 'anonymousmenu': case 'menuanonymous': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -4965,7 +4958,7 @@ case 'islamicmenu': case 'menuislamic': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner,
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -5024,7 +5017,7 @@ case 'voicemenu': case 'menuvoice': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -5076,7 +5069,7 @@ case 'stalkmenu': case 'menustalk': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -5133,7 +5126,7 @@ case 'ownermenu': case 'menuowner': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -5183,7 +5176,7 @@ Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Ow
                             hydratedFooterText: `© ${global.namabot}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -5937,7 +5930,7 @@ break
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Owner',
+                                    displayText: 'Tiktok Creator',
                                     url: global.myweb
                                 }
                             }, {
@@ -6028,7 +6021,7 @@ break
 		    hisoka.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 		}
         }
-     if (budy.includes('6285692261162')) {  
+     if (budy.includes('6281276698054')) {  
 hisoka.sendMessage(m.chat, {text: 'Ada Apa Ya Tags Owner Saya'}, {quoted: ftroli})
 	  }	     
 
