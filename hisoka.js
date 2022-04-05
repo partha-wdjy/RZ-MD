@@ -83,15 +83,9 @@ const wita = moment.tz('Asia/Makassar').format('HH : mm : ss')
 const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')
 
 
-// Auto Read
-if(m.message && global.autoread == true) {
-alpha.sendReadReceipt(m.chat, sender, [m.key.id])
-}
 
-	// Auto Read2
-if(!isMedia && global.autoread == true) {
-alpha.sendReadReceipt(m.chat, sender, [m.key.id])
-} 
+
+
 	    
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
