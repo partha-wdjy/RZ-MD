@@ -815,7 +815,7 @@ https://github.com/DikaArdnt/Hisoka-Morou
 https://youtube.com/c/SanzyYT`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Creator',
+                                    displayText: 'Tiktok Creator',
                                     url: 'https://youtube.com/c/SanzyYT'
                                 }
                             }]
