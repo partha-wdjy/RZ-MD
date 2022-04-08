@@ -815,7 +815,7 @@ https://github.com/DikaArdnt/Hisoka-Morou
 https://youtube.com/c/SanzyYT`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Tiktok Creator',
+                                    displayText: 'IG Creator',
                                     url: 'https://youtube.com/c/SanzyYT'
                                 }
                             }]
@@ -824,13 +824,10 @@ https://youtube.com/c/SanzyYT`
             break
              case 'P': {
                 m.reply('On Kak')
-         
-	     }
-		
-			
-			break
-             case 'Assalamualaikum': {
-                m.reply('Waalaikumsallam 😇')
+            }
+            break
+             case 'assalamualaikum': {
+                m.reply('Waalaikumsallam')
             }
             break
             case 'chat': {
