@@ -55,12 +55,13 @@ global.APIKeys = {
 
 // Other
 
-global.botname = 'RZ Bot'
+global.botname = 'RZ-Bot'
 
 global.ownername = 'Partha wdjy'
 
-global.myweb = 'https://bit.ly/parthawdjy'
-
+global.myweb = 'https://bit.ly/partha-wdjy'
+global.email = "arizalss120@gmail.com" //bebas
+global.region = "Republik Jomblo  " //bebas
 
 global.owner = [ '6285692261162' ]
 
@@ -68,10 +69,10 @@ global.owner = [ '6285692261162' ]
 global.premium = ['6285692261162']
 
 
-global.packname = '©RZ bot-MD'
+global.packname = 'RZ-Bot'
 
 
-global.author = 'By Partha'
+global.author = 'Partha'
 
 
 global.sessionName = 'hisoka'
@@ -86,7 +87,7 @@ global.sp = '⭔'
 global.mess = {
 
 
-    success: '✓ Success',
+    success: '✓ Sampun masszzeh',
 
 
     admin: 'Fitur Khusus Admin Group!',
