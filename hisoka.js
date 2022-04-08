@@ -815,19 +815,15 @@ https://github.com/DikaArdnt/Hisoka-Morou
 https://youtube.com/c/SanzyYT`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'IG Creator',
+                                    displayText: 'Tiktok Creator',
                                     url: 'https://youtube.com/c/SanzyYT'
                                 }
                             }]
                 hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, button)
             }
             break
-             case 'P': {
+             case 'tes': {
                 m.reply('On Kak')
-            }
-            break
-             case 'assalamualaikum': {
-                m.reply('Waalaikumsallam')
             }
             break
             case 'chat': {
